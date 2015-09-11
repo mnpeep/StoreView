@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		84F4C40D1BA24CAA0003BCB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C40C1BA24CAA0003BCB6 /* AppDelegate.swift */; };
-		84F4C40F1BA24CAA0003BCB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C40E1BA24CAA0003BCB6 /* ViewController.swift */; };
-		84F4C4121BA24CAB0003BCB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F4C4101BA24CAB0003BCB6 /* Main.storyboard */; };
+		84F4C40F1BA24CAA0003BCB6 /* iPhoneMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C40E1BA24CAA0003BCB6 /* iPhoneMainViewController.swift */; };
+		84F4C4121BA24CAB0003BCB6 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F4C4101BA24CAB0003BCB6 /* iPhone.storyboard */; };
 		84F4C4151BA24CAB0003BCB6 /* StoreView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C4131BA24CAB0003BCB6 /* StoreView.xcdatamodeld */; };
 		84F4C4171BA24CAB0003BCB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F4C4161BA24CAB0003BCB6 /* Assets.xcassets */; };
 		84F4C41A1BA24CAB0003BCB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F4C4181BA24CAB0003BCB6 /* LaunchScreen.storyboard */; };
 		84F4C4251BA24CAB0003BCB6 /* StoreViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C4241BA24CAB0003BCB6 /* StoreViewTests.swift */; };
 		84F4C4301BA24CAB0003BCB6 /* StoreViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C42F1BA24CAB0003BCB6 /* StoreViewUITests.swift */; };
+		84F4C43E1BA24D610003BCB6 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F4C43D1BA24D610003BCB6 /* iPad.storyboard */; settings = {ASSET_TAGS = (); }; };
+		84F4C4421BA256F70003BCB6 /* iPadMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C4411BA256F70003BCB6 /* iPadMainViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,8 @@
 /* Begin PBXFileReference section */
 		84F4C4091BA24CAA0003BCB6 /* StoreView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F4C40C1BA24CAA0003BCB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84F4C40E1BA24CAA0003BCB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84F4C4111BA24CAB0003BCB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84F4C40E1BA24CAA0003BCB6 /* iPhoneMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneMainViewController.swift; sourceTree = "<group>"; };
+		84F4C4111BA24CAB0003BCB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iPhone.storyboard; sourceTree = "<group>"; };
 		84F4C4141BA24CAB0003BCB6 /* StoreView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StoreView.xcdatamodel; sourceTree = "<group>"; };
 		84F4C4161BA24CAB0003BCB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F4C4191BA24CAB0003BCB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		84F4C42B1BA24CAB0003BCB6 /* StoreViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F4C42F1BA24CAB0003BCB6 /* StoreViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewUITests.swift; sourceTree = "<group>"; };
 		84F4C4311BA24CAB0003BCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F4C43D1BA24D610003BCB6 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		84F4C4411BA256F70003BCB6 /* iPadMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPadMainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +103,15 @@
 		84F4C40B1BA24CAA0003BCB6 /* StoreView */ = {
 			isa = PBXGroup;
 			children = (
-				84F4C40C1BA24CAA0003BCB6 /* AppDelegate.swift */,
-				84F4C40E1BA24CAA0003BCB6 /* ViewController.swift */,
-				84F4C4101BA24CAB0003BCB6 /* Main.storyboard */,
-				84F4C4161BA24CAB0003BCB6 /* Assets.xcassets */,
+				84F4C43D1BA24D610003BCB6 /* iPad.storyboard */,
+				84F4C4411BA256F70003BCB6 /* iPadMainViewController.swift */,
+				84F4C4401BA256AA0003BCB6 /* iPad Classes */,
+				84F4C4101BA24CAB0003BCB6 /* iPhone.storyboard */,
+				84F4C40E1BA24CAA0003BCB6 /* iPhoneMainViewController.swift */,
+				84F4C43F1BA256A20003BCB6 /* iPhone Classes */,
 				84F4C4181BA24CAB0003BCB6 /* LaunchScreen.storyboard */,
+				84F4C40C1BA24CAA0003BCB6 /* AppDelegate.swift */,
+				84F4C4161BA24CAB0003BCB6 /* Assets.xcassets */,
 				84F4C41B1BA24CAB0003BCB6 /* Info.plist */,
 				84F4C4131BA24CAB0003BCB6 /* StoreView.xcdatamodeld */,
 			);
@@ -126,6 +134,20 @@
 				84F4C4311BA24CAB0003BCB6 /* Info.plist */,
 			);
 			path = StoreViewUITests;
+			sourceTree = "<group>";
+		};
+		84F4C43F1BA256A20003BCB6 /* iPhone Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "iPhone Classes";
+			sourceTree = "<group>";
+		};
+		84F4C4401BA256AA0003BCB6 /* iPad Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "iPad Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +255,8 @@
 			files = (
 				84F4C41A1BA24CAB0003BCB6 /* LaunchScreen.storyboard in Resources */,
 				84F4C4171BA24CAB0003BCB6 /* Assets.xcassets in Resources */,
-				84F4C4121BA24CAB0003BCB6 /* Main.storyboard in Resources */,
+				84F4C4121BA24CAB0003BCB6 /* iPhone.storyboard in Resources */,
+				84F4C43E1BA24D610003BCB6 /* iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F4C4151BA24CAB0003BCB6 /* StoreView.xcdatamodeld in Sources */,
-				84F4C40F1BA24CAA0003BCB6 /* ViewController.swift in Sources */,
+				84F4C4421BA256F70003BCB6 /* iPadMainViewController.swift in Sources */,
+				84F4C40F1BA24CAA0003BCB6 /* iPhoneMainViewController.swift in Sources */,
 				84F4C40D1BA24CAA0003BCB6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,12 +320,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84F4C4101BA24CAB0003BCB6 /* Main.storyboard */ = {
+		84F4C4101BA24CAB0003BCB6 /* iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				84F4C4111BA24CAB0003BCB6 /* Base */,
 			);
-			name = Main.storyboard;
+			name = iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		84F4C4181BA24CAB0003BCB6 /* LaunchScreen.storyboard */ = {
@@ -404,6 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maxedout.StoreView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -415,6 +440,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maxedout.StoreView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
