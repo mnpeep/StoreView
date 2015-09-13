@@ -8,18 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		84F4C40D1BA24CAA0003BCB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C40C1BA24CAA0003BCB6 /* AppDelegate.swift */; };
-		84F4C40F1BA24CAA0003BCB6 /* iPhoneMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C40E1BA24CAA0003BCB6 /* iPhoneMainViewController.swift */; };
 		84F4C4121BA24CAB0003BCB6 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F4C4101BA24CAB0003BCB6 /* iPhone.storyboard */; };
 		84F4C4151BA24CAB0003BCB6 /* StoreView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C4131BA24CAB0003BCB6 /* StoreView.xcdatamodeld */; };
 		84F4C4171BA24CAB0003BCB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F4C4161BA24CAB0003BCB6 /* Assets.xcassets */; };
 		84F4C41A1BA24CAB0003BCB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F4C4181BA24CAB0003BCB6 /* LaunchScreen.storyboard */; };
 		84F4C4251BA24CAB0003BCB6 /* StoreViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C4241BA24CAB0003BCB6 /* StoreViewTests.swift */; };
 		84F4C4301BA24CAB0003BCB6 /* StoreViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C42F1BA24CAB0003BCB6 /* StoreViewUITests.swift */; };
-		84F4C43E1BA24D610003BCB6 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F4C43D1BA24D610003BCB6 /* iPad.storyboard */; settings = {ASSET_TAGS = (); }; };
-		84F4C4421BA256F70003BCB6 /* iPadMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C4411BA256F70003BCB6 /* iPadMainViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		84F4C4441BA257FF0003BCB6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F4C4431BA257FF0003BCB6 /* StoreKit.framework */; };
 		84F4C4461BA258900003BCB6 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F4C4451BA258900003BCB6 /* NetworkExtension.framework */; };
 		84F4C4491BA258B60003BCB6 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F4C4481BA258B60003BCB6 /* ExternalAccessory.framework */; };
+		84F4C4541BA505C00003BCB6 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4C4531BA505C00003BCB6 /* AppSettings.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +40,6 @@
 /* Begin PBXFileReference section */
 		84F4C4091BA24CAA0003BCB6 /* StoreView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F4C40C1BA24CAA0003BCB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84F4C40E1BA24CAA0003BCB6 /* iPhoneMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneMainViewController.swift; sourceTree = "<group>"; };
 		84F4C4111BA24CAB0003BCB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iPhone.storyboard; sourceTree = "<group>"; };
 		84F4C4141BA24CAB0003BCB6 /* StoreView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StoreView.xcdatamodel; sourceTree = "<group>"; };
 		84F4C4161BA24CAB0003BCB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,12 +51,11 @@
 		84F4C42B1BA24CAB0003BCB6 /* StoreViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F4C42F1BA24CAB0003BCB6 /* StoreViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewUITests.swift; sourceTree = "<group>"; };
 		84F4C4311BA24CAB0003BCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84F4C43D1BA24D610003BCB6 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
-		84F4C4411BA256F70003BCB6 /* iPadMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPadMainViewController.swift; sourceTree = "<group>"; };
 		84F4C4431BA257FF0003BCB6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		84F4C4451BA258900003BCB6 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		84F4C4471BA258900003BCB6 /* StoreView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = StoreView.entitlements; sourceTree = "<group>"; };
 		84F4C4481BA258B60003BCB6 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		84F4C4531BA505C00003BCB6 /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,18 +112,14 @@
 		84F4C40B1BA24CAA0003BCB6 /* StoreView */ = {
 			isa = PBXGroup;
 			children = (
-				84F4C4471BA258900003BCB6 /* StoreView.entitlements */,
-				84F4C43D1BA24D610003BCB6 /* iPad.storyboard */,
-				84F4C4411BA256F70003BCB6 /* iPadMainViewController.swift */,
-				84F4C4401BA256AA0003BCB6 /* iPad Classes */,
-				84F4C4101BA24CAB0003BCB6 /* iPhone.storyboard */,
-				84F4C40E1BA24CAA0003BCB6 /* iPhoneMainViewController.swift */,
+				84F4C4521BA505A80003BCB6 /* CoreData Classes */,
 				84F4C43F1BA256A20003BCB6 /* iPhone Classes */,
-				84F4C4181BA24CAB0003BCB6 /* LaunchScreen.storyboard */,
-				84F4C40C1BA24CAA0003BCB6 /* AppDelegate.swift */,
 				84F4C4161BA24CAB0003BCB6 /* Assets.xcassets */,
-				84F4C41B1BA24CAB0003BCB6 /* Info.plist */,
+				84F4C4471BA258900003BCB6 /* StoreView.entitlements */,
+				84F4C40C1BA24CAA0003BCB6 /* AppDelegate.swift */,
 				84F4C4131BA24CAB0003BCB6 /* StoreView.xcdatamodeld */,
+				84F4C4181BA24CAB0003BCB6 /* LaunchScreen.storyboard */,
+				84F4C41B1BA24CAB0003BCB6 /* Info.plist */,
 			);
 			path = StoreView;
 			sourceTree = "<group>";
@@ -153,15 +145,25 @@
 		84F4C43F1BA256A20003BCB6 /* iPhone Classes */ = {
 			isa = PBXGroup;
 			children = (
+				84F4C4101BA24CAB0003BCB6 /* iPhone.storyboard */,
+				84F4C44D1BA4D71A0003BCB6 /* Settings Classes */,
 			);
 			name = "iPhone Classes";
 			sourceTree = "<group>";
 		};
-		84F4C4401BA256AA0003BCB6 /* iPad Classes */ = {
+		84F4C44D1BA4D71A0003BCB6 /* Settings Classes */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "iPad Classes";
+			name = "Settings Classes";
+			sourceTree = "<group>";
+		};
+		84F4C4521BA505A80003BCB6 /* CoreData Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84F4C4531BA505C00003BCB6 /* AppSettings.swift */,
+			);
+			name = "CoreData Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +290,6 @@
 				84F4C41A1BA24CAB0003BCB6 /* LaunchScreen.storyboard in Resources */,
 				84F4C4171BA24CAB0003BCB6 /* Assets.xcassets in Resources */,
 				84F4C4121BA24CAB0003BCB6 /* iPhone.storyboard in Resources */,
-				84F4C43E1BA24D610003BCB6 /* iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,9 +315,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F4C4151BA24CAB0003BCB6 /* StoreView.xcdatamodeld in Sources */,
-				84F4C4421BA256F70003BCB6 /* iPadMainViewController.swift in Sources */,
-				84F4C40F1BA24CAA0003BCB6 /* iPhoneMainViewController.swift in Sources */,
 				84F4C40D1BA24CAA0003BCB6 /* AppDelegate.swift in Sources */,
+				84F4C4541BA505C00003BCB6 /* AppSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
